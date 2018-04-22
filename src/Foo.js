@@ -18,6 +18,7 @@ class Foo extends React.Component {
 
    updateState() {
       this.setState({data: 'Data updated...'})
+       this.props.fun();
    }
 
    render() {
